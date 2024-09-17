@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* Fonte mais suave e elegante */
+    background-color: #fef3f5; /* Fundo em tom de rosa claro */
+}
+
+header {
+    background-color: #f7a1c4; /* Fundo rosa suave para o cabeçalho */
+    color: #fff; /* Texto branco para contraste */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #d993b1; /* Linha rosa mais escura para elegância */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: calc(100% - 160px);
+    background-color: #ffe8ec; /* Fundo rosa pálido para um toque delicado */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.description {
+    flex: 1;
+    flex-basis: 400px;
+    font-size: 1.5em;
+    color: #d47b94; /* Texto em tom de rosa escuro */
+    line-height: 1.6;
+    max-width: 500px;
+    border: 2px solid #d993b1; /* Borda rosa escura para destacar a descrição */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 248, 250, 0.8); /* Fundo semi-transparente suave */
+}
+
+.video-thumbnail {
+    transition: transform 0.3s ease;
+}
+
+.video-main img {
+    width: 60%;
+    height: auto;
+    border-radius: 12px; /* Cantos mais arredondados para delicadeza */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para suavidade */
+    border: 2px solid #d993b1; /* Borda rosa escura ao redor da thumbnail */
+}
+
+footer {
+    background-color: #f7a1c4;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 4px solid #d993b1;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    flex: 1;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Cantos arredondados para delicadeza nas thumbnails */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave nas imagens */
+    border: 2px solid #d993b1; /* Borda rosa escura nas imagens */
+}
+
+.footer-links img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Efeito de hover delicado */
+}
